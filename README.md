@@ -1,8 +1,8 @@
 # iOS Calculator for Baddies
 
-A responsive iOS-inspired calculator web application built using HTML, CSS, and JavaScript.
+A responsive iOS-inspired calculator web application built using HTML, CSS, and JavaScript in pink colour with proper coloration.
 
-Designed with a modern bubbly UI, animated buttons, overflow handling, and realistic calculator behavior.
+Designed with a modern bubbly pink UI, animated button interactions, overflow handling, and realistic calculator-style behavior.
 
 This project supports basic arithmetic operations with a clean UI inspired by modern calculator interfaces.
 
@@ -20,4 +20,4 @@ https://iscompg.github.io/calculatorwebsite
 
 # Author 
 Ishani Arora <br>
-iscompg
+(iscompg)
