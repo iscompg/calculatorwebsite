@@ -12,6 +12,17 @@ function appendToDisplay(input){
         display.value="Overflow";
         return;
     }
+
+    let lastchar=display.value.slice(-1);
+    let operators=['=', '-', 'x', '/', '%'];
+
+    if (operators.includes(lastchar)&& operators.includes(input)){
+        return;
+    }
+
+    if (input=='.'&& currentNumber.includes('.')){
+        return;
+    }
     display.value+=input;
     display.scrollLeft=display.scrollWidth;
 }
