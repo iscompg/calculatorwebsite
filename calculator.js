@@ -4,13 +4,15 @@ function appendToDisplay(input){
     if (display.value=="Overflow"){
         return;
     }
-    else if (display.value.length<=15){
-        display.value += input;
-    }
-    else{
+
+    let parts= display.value.split(/[\+\-\*\/%]/);
+    let currentNumber= parts[parts.length-1];
+
+    if (currentNumber.length>=15 && !isNaN(input)){
         display.value="Overflow";
         return;
     }
+    display.value+=input;
 }
 
 function clearDisplay(input){
