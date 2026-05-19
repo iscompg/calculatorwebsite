@@ -33,12 +33,14 @@ button{
     border: none;
     background-color: rgb(175, 100, 166);
     cursor: pointer;
+    transition: transform 0.1s ease;
 }
 button:hover{
     background-color: rgb(240, 149, 231);
 }
 button:active{
     background-color: rgb(244, 221, 242);
+    transform: translateY(-4px); scale:(0.95);
 }
 
 input{

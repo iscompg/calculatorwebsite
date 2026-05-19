@@ -11,15 +11,15 @@
     <div id="calc">
         <input id="display" readonly>
         <div id="keys">
-            <button onclick="calculate('ac')">AC</button>
-            <button onclick="clear('delete')">C</button>
+            <button onclick="clearDisplay('ac')">AC</button>
+            <button onclick="clearDisplay('del')">del</button>
             <button onclick="appendToDisplay('%')">%</button>
             <button onclick="appendToDisplay('/')" class="operator">/</button>
 
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
             <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('x')" class="operator">x</button>
+            <button onclick="appendToDisplay('*')" class="operator">x</button>
 
             <button onclick="appendToDisplay('4')">4</button>
             <button onclick="appendToDisplay('5')">5</button>
@@ -31,10 +31,10 @@
             <button onclick="appendToDisplay('3')">3</button>
             <button onclick="appendToDisplay('+')" class="operator">+</button>
 
-            <button onclick="appendToDisplay('sign')">+/-</button>
+            <button onclick="toggleSign('+' || '-')">+/-</button>
             <button onclick="appendToDisplay('0')">0</button>
             <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="clear('=')" class="operator">=</button>
+            <button onclick="calculateDisplay('=')" class="operator">=</button>
 
 
 
